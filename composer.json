@@ -27,7 +27,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "vsdm/flysystem": "~1.0.41"
+        "league/flysystem": "dev-cis"
     },
     "require-dev": {
         "league/flysystem-aws-s3-v3": "~1.0",
@@ -46,6 +46,10 @@
         {
             "type": "pear",
             "url": "http://pear.php.net"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vsdm/yii2-flysystem"
         }
     ],
     "autoload": {
